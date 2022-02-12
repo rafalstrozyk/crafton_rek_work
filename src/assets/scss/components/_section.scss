@@ -1,0 +1,129 @@
+.section {
+  height: 100vh;
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  h2 {
+    margin-bottom: 42px;
+    font-size: 35px;
+    font-weight: var(--font-weight-bold);
+  }
+
+  h3 {
+    font-size: 18px;
+    color: var(--color-black-light);
+  }
+
+  &_content {
+    max-width: 40vw;
+  }
+
+  &_paragraphs {
+    p {
+      font-size: 18px;
+    }
+    & > *:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &_list {
+    margin-top: 42px;
+
+    ul {
+      padding: 0;
+
+      li {
+        list-style: none;
+        position: relative;
+        margin-left: 25px;
+
+        &::before {
+          content: '\2192';
+          font-size: 15px;
+          position: absolute;
+          color: var(--color-blue);
+          top: 0;
+          left: -25px;
+        }
+      }
+
+      & > * {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  &_player {
+    &-img {
+      max-width: 600px;
+      max-height: 600px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      & .btn_play {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  img {
+    max-width: 600px;
+    max-height: 600px;
+    width: 100%;
+    height: auto;
+  }
+
+  &_contact {
+    background-color: var(--color-white-light);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    form {
+      margin-top: 45px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 50px;
+
+    &_content {
+      max-width: 60vw;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    img {
+      margin: 15px;
+    }
+
+    &_content {
+      max-width: 80vw;
+    }
+
+    &_contact {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@keyframes pulse-shadow {
+  0% {
+    box-shadow: 0px 0px 0px 19px var(--color-blue-op2);
+  }
+  50% {
+    box-shadow: 0px 0px 0px 0px var(--color-blue-op2);
+  }
+  100% {
+    box-shadow: 0px 0px 0px 19px var(--color-blue-op2);
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "slides": [
+    {
+      "content": {
+        "title": {
+          "first": "Będziesz się uczyć z ciekawości.",
+          "second": "Obiecujemy."
+        },
+        "buttons": [
+          {
+            "type": "rounded-white",
+            "content": "Zobacz więcej"
+          },
+          {
+            "type": "rounded-transparent",
+            "content": "Umów się z aniołem"
+          }
+        ]
+      },
+      "img": "./assets/slider-1.jpg"
+    },
+    {
+      "content": {
+        "title": {
+          "first": "Będziesz się uczyć z ciekawości2.",
+          "second": "Obiecujemy."
+        },
+        "buttons": [
+          {
+            "type": "rounded-white",
+            "content": "Zobacz więcej2"
+          },
+          {
+            "type": "rounded-transparent",
+            "content": "Umów się z aniołem"
+          }
+        ]
+      },
+      "img": "./assets/slider-2.jpg"
+    },
+    {
+      "content": {
+        "title": {
+          "first": "Będziesz się uczyć z ciekawości3.",
+          "second": "Obiecujemy."
+        },
+        "buttons": [
+          {
+            "type": "rounded-white",
+            "content": "Zobacz więcej3"
+          },
+          {
+            "type": "rounded-transparent",
+            "content": "Umów się z aniołem"
+          }
+        ]
+      },
+      "img": "./assets/slider-3.jpg"
+    },
+    {
+      "content": {
+        "title": {
+          "first": "Będziesz się uczyć z ciekawości4.",
+          "second": "Obiecujemy."
+        },
+        "buttons": [
+          {
+            "type": "rounded-white",
+            "content": "Zobacz więcej4"
+          },
+          {
+            "type": "rounded-transparent",
+            "content": "Umów się z aniołem"
+          }
+        ]
+      },
+      "img": "./assets/slider-4.jpg"
+    }
+  ],
+  "navigation": [
+    {
+      "title": "&#8544; stopnia",
+      "link": "#"
+    },
+    {
+      "title": "&#8544;&#8544; stopnia",
+      "link": "#"
+    },
+    {
+      "title": "Podyplomowe",
+      "link": "#"
+    },
+    {
+      "title": "Szkolenia",
+      "link": "#"
+    },
+    {
+      "title": "Usługi",
+      "link": "#"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Dla kogo",
+      "paragraphs": [
+        "Dedykowane nauczycielom posiadającym przygotowanie pedagogiczne, którzy chcą uzyskać merytoryczne i metodyczne przygotowanie do nauczania kolejnego przedmiotu - Geografii.",
+        "Studia adresowane są do osób legitymujących się wyższym wykształceniem na poziomie studiów licencjackim o specjalnościach nadających kwalifikacje nauczycielskie i przygotowanie pedagogiczne, lub słuchaczy legitymujących się wyższym wykształceniem na poziomie studiów magisterskich nadających kwalifikacje nauczycielskie i przygotowanie pedagogiczne, zgodnie z Rozporządzeniem Ministra Edukacji Narodowej z dnia 1 sierpnia 2017 r. w sprawie szczegółowych kwalifikacji wymaganych od nauczycieli (Dz.U. 2017 poz. 1575)."
+      ],
+      "list": {
+        "title": "Wymagania od kandydatów:",
+        "elements": ["Ukończone studia wyższe", "Przygotowanie pedagogiczne"]
+      },
+      "img": {
+        "alt": "world",
+        "src": "./assets/section-1.jpg"
+      },
+      "reverse": false
+    },
+    {
+      "title": "Dla kogo",
+      "paragraphs": [
+        "Dedykowane nauczycielom posiadającym przygotowanie pedagogiczne, którzy chcą uzyskać merytoryczne i metodyczne przygotowanie do nauczania kolejnego przedmiotu - Geografii."
+      ],
+      "img": {
+        "alt": "world",
+        "src": "./assets/section-1.jpg"
+      },
+      "reverse": true
+    },
+    {
+      "title": "Z kim?",
+      "paragraphs": [
+        "Ciekawość jest najpotężniejszą cechą ludzką, która popycha ludzi do ciągłego rozwoju. CDV to miejsce, w którym studenci z zainteresowaniem i z przyjemnością zdobywają wiedzę. Zarówno studenci, absolwenci, jak i pracownicy to osoby nie tylko ciekawe świata, ale także pełne pasji w odkrywaniu nowych rzeczy i w pozytywny sposób wpływające na swoje otoczenie.",
+        "Nasze kierunki studiów są interesujące i innowacyjne, tworzone we współpracy z pracodawcami oraz na podstawie trendów w światowej gospodarce i kierunku zmian na dynamicznym rynku pracy. Nasi absolwenci znajdują pracę zgodną ze swoimi zainteresowaniami i wykształceniem."
+      ],
+      "img": {
+        "alt": "yt",
+        "src": "http://img.youtube.com/vi/tgbNymZ7vqY/hqdefault.jpg"
+      },
+      "popup": {
+        "class": "btn_play",
+        "id": ".btn_play",
+        "content": "<iframe src='https://www.youtube.com/embed/tgbNymZ7vqY'></iframe>",
+        "title": "1"
+      },
+      "reverse": false
+    }
+  ],
+  "footer": {
+    "links": [
+      {
+        "adres": "#",
+        "title": "O nas"
+      },
+      {
+        "adres": "#",
+        "title": "Dlaczego CDV"
+      },
+      {
+        "adres": "#",
+        "title": "Kadra naukowa"
+      },
+      {
+        "adres": "#",
+        "title": "Dla mediów"
+      },
+      {
+        "adres": "#",
+        "title": "Kontakt"
+      },
+      {
+        "adres": "#",
+        "title": "Dla kandydata"
+      },
+      {
+        "adres": "#",
+        "title": "Poradnik maturzysty"
+      },
+      {
+        "adres": "#",
+        "title": "Rekrutacja"
+      },
+      {
+        "adres": "#",
+        "title": "Kredyt studencki"
+      },
+      {
+        "adres": "#",
+        "title": "Studia dla cudzoziemców"
+      },
+      {
+        "adres": "#",
+        "title": "Dla studenta"
+      },
+      {
+        "adres": "#",
+        "title": "Wirtualna uczelnia"
+      },
+      {
+        "adres": "#",
+        "title": "Stypendia"
+      },
+      {
+        "adres": "#",
+        "title": "Biuro karier"
+      },
+      {
+        "adres": "#",
+        "title": "Studiuj dalej"
+      },
+      {
+        "adres": "#",
+        "title": "Dla biznesu"
+      },
+      {
+        "adres": "#",
+        "title": "Współpraca z biznesem"
+      },
+      {
+        "adres": "#",
+        "title": "EmotionsLAB"
+      },
+      {
+        "adres": "#",
+        "title": "Wynajem sal"
+      },
+      {
+        "adres": "#",
+        "title": "Znajdź pracownika"
+      },
+      {
+        "adres": "#",
+        "title": "Na skróty"
+      },
+      {
+        "adres": "#",
+        "title": "Aktualności"
+      },
+      {
+        "adres": "#",
+        "title": "Wydarzenia"
+      },
+      {
+        "adres": "#",
+        "title": "Konferencje"
+      },
+      {
+        "adres": "#",
+        "title": "Blog"
+      }
+    ],
+    "map": {
+      "address": ["ul.Głogowska 10", "61-719 Poznań", "tel.61 26 11 000"],
+      "mapURL": "https://www.google.com/maps/d/u/0/embed?mid=1SKPYAgYBPMdZJAOWLzOUDNIfMHKP-494&ehbc=2E312F"
+    }
+  }
+}
