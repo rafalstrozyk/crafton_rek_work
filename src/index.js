@@ -7,4 +7,6 @@ import './assets/images/slider-4.jpg';
 import './assets/images/section-1.jpg';
 import './assets/images/section-2.jpg';
 
-import './js/app';
+import app from './js/app';
+
+app();

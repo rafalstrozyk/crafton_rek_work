@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
     <title>Crafton</title>
-</head>
+  </head>
 
-<body>
-    <!-- <img src="./assets/logo.png" alt="trhrthrt"> -->
+  <body>
     <nav class="navigation">
-        <div class="navigation_burger">
-            <label for="burger-check">
-                <input type="checkbox" name="burger-check" id="burger-check" />
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-        </div>
-        <ul class="navigation_nav" id="nav">
-            <!-- <li><a href="#">&#8544; stopnia</a></li>
+      <div class="navigation_burger">
+        <label for="burger-check">
+          <input type="checkbox" name="burger-check" id="burger-check" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      <ul class="navigation_nav" id="nav">
+        <!-- <li><a href="#">&#8544; stopnia</a></li>
             <li><a href="#">&#8544;&#8544; stopnia</a></li>
             <li><a href="#">Podyplomowe</a></li>
             <li><a href="#">Szkolenia</a></li>
             <li><a href="#">Usługi</a></li> -->
-        </ul>
+      </ul>
     </nav>
     <header>
-        <div class="logo"><img src="./assets/logo.png" alt="logo"></div>
-        <div class="slider">
-            <div class="slides">
-                <!-- <div class="slide slide1">
+      <div class="logo"><img src="./assets/logo.png" alt="logo" /></div>
+      <div class="slider">
+        <div class="slides">
+          <!-- <div class="slide slide1">
                     <div class="slide_content">
                         <h1>Będziesz się uczyć z ciekawości <span>Obiecujemy.</span></h1>
                         <div class="slide_btn-group">
@@ -71,22 +72,20 @@
                     </div>
 
                 </div> -->
-            </div>
+        </div>
 
-            <ul class="dots-wrapper">
-                <!-- <li class="active"></li>
+        <ul class="dots-wrapper">
+          <!-- <li class="active"></li>
                 <li></li>
                 <li></li>
                 <li></li> -->
-            </ul>
-            <button class="btn_arrow slider_arrow arrow-left">
-            </button>
-            <button class="btn_arrow slider_arrow arrow-right"></button>
-        </div>
-
+        </ul>
+        <button class="btn_arrow slider_arrow arrow-left"></button>
+        <button class="btn_arrow slider_arrow arrow-right"></button>
+      </div>
     </header>
     <main id="main">
-        <!-- <section class="section">
+      <!-- <section class="section">
             <div class="section_content">
                 <h2>Dla kogo?</h2>
                 <div>
@@ -186,47 +185,82 @@
             </div>
         </section> -->
 
-        <section class="section section_contact">
-            <h3>Nie znaleziono odpowiedniego kontaktu?</h3>
-            <span>Skorzystaj z formularza.</span>
+      <section class="section section_contact">
+        <h3>Nie znaleziono odpowiedniego kontaktu?</h3>
+        <span>Skorzystaj z formularza.</span>
 
-            <form class="form" id="form" onsubmit="return ajaxpost()">
-                <div class="form_groups">
-                    <div class="form_group">
-                        <input class="form_field" placeholder="Imię" type="text" id="fname" minlength="3" name="fname"
-                            required="">
-                        <label class="form_label" for="fname">Imię</label>
-                    </div>
-                    <div class="form_group">
-                        <input class="form_field" minlength="3" placeholder="Nazwisko" type="text" id="lname"
-                            name="lname" required="">
-                        <label class="form_label" for="lname">Nazwisko</label>
-                    </div>
-                </div>
-                <div class="form_group">
-                    <input class="form_field" placeholder="Adres e-mail" type="email" id="email" name="email"
-                        required="">
-                    <label class="form_label" for="email">Adres e-mail</label>
-                </div>
-                <div class="form_group">
-                    <textarea class="form_field" required minlength="10" placeholder="Treść Wiadomości" id="message"
-                        name="message" cols="30" rows="10"></textarea>
-                    <label class="form_label" for="message">Treść Wiadomości</label>
-                </div>
-                <div class="form_group">
-                    <input type="checkbox" required="" name="agreement" id="agreement">
-                    <label for="agreement" class="form_group_min-con">Wyrażam zgodę na przetwarzanie moich danych
-                        osobowych w rozumieniu ustawy z dnia 29 sierpnia 1997
-                        roku o ochronie danych osobowych oraz ustawy z dnia 16 lipca 2004 roku Prawo telekomunikacyjne w
-                        celach marketingowych przez Collegium Da Vinci i oświadczam, iż podanie przeze mnie danych
-                        osobowych jest dobrowolne oraz iż zostałem poinformowany o prawie żądania dostępu do moich
-                        danych osobowych, ich zmiany oraz usunięcia.</label>
-                </div>
+        <form class="form" id="form">
+          <div class="form_groups">
+            <div class="form_group">
+              <input
+                class="form_field"
+                placeholder="Imię"
+                type="text"
+                id="fname"
+                minlength="3"
+                name="fname"
+                required
+              />
+              <label class="form_label" for="fname">Imię</label>
+            </div>
+            <div class="form_group">
+              <input
+                class="form_field"
+                minlength="3"
+                placeholder="Nazwisko"
+                type="text"
+                id="lname"
+                name="lname"
+                required
+              />
+              <label class="form_label" for="lname">Nazwisko</label>
+            </div>
+          </div>
+          <div class="form_group">
+            <input
+              class="form_field"
+              placeholder="Adres e-mail"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+            <label class="form_label" for="email">Adres e-mail</label>
+          </div>
+          <div class="form_group">
+            <textarea
+              class="form_field"
+              required
+              minlength="10"
+              placeholder="Treść Wiadomości"
+              id="message"
+              name="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <label class="form_label" for="message">Treść Wiadomości</label>
+          </div>
+          <div class="form_group">
+            <input type="checkbox" required name="agreement" id="agreement" />
+            <label for="agreement" class="form_group_min-con"
+              >Wyrażam zgodę na przetwarzanie moich danych osobowych w
+              rozumieniu ustawy z dnia 29 sierpnia 1997 roku o ochronie danych
+              osobowych oraz ustawy z dnia 16 lipca 2004 roku Prawo
+              telekomunikacyjne w celach marketingowych przez Collegium Da Vinci
+              i oświadczam, iż podanie przeze mnie danych osobowych jest
+              dobrowolne oraz iż zostałem poinformowany o prawie żądania dostępu
+              do moich danych osobowych, ich zmiany oraz usunięcia.</label
+            >
+          </div>
 
-                <!-- <button type="submit" class="btn_rounded btn_rounded-blue">Wyślij</button> -->
-                <input type="submit" class="btn_rounded btn_rounded-blue" value="Wyślij">
-            </form>
-        </section>
+          <!-- <button type="submit" class="btn_rounded btn_rounded-blue">Wyślij</button> -->
+          <input
+            type="submit"
+            class="btn_rounded btn_rounded-blue"
+            value="Wyślij"
+          />
+        </form>
+      </section>
     </main>
     <!-- <div class="popup">
         <div class="popup_content">
@@ -238,25 +272,21 @@
     </div> -->
 
     <footer class="footer">
-        <div class="footer_map-container">
-            <!-- <div class="footer_map-adress">
+      <div class="footer_map-container">
+        <!-- <div class="footer_map-adress">
                 <span>ul.Głogowska 10</span>
                 <span>61-719 Poznań</span>
                 <span>tel.61 26 11 000</span>
             </div>
             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1SKPYAgYBPMdZJAOWLzOUDNIfMHKP-494&ehbc=2E312F"
                ></iframe> -->
+      </div>
+      <div class="footer_container">
+        <div class="footer_links" id="footer-links"></div>
+        <div class="footer_realization">
+          <span>Projekt i realizacja: Crafton</span>
         </div>
-        <div class="footer_container">
-
-            <div class="footer_links" id="footer-links">
-            </div>
-            <div class="footer_realization">
-                <span>Projekt i realizacja: Crafton</span>
-            </div>
-        </div>
-
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

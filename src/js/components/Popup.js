@@ -1,5 +1,3 @@
-
-
 class Popup {
   constructor(openBtns, title, content) {
     this.def = {
@@ -31,7 +29,7 @@ class Popup {
   }
   setCloseButton() {
     this.def.closeBtn = document.querySelector(
-      `[data-player-close-${this.def.title}]`
+      `[data-player-close-${this.def.title}]`,
     );
   }
 
